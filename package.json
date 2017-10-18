@@ -1,0 +1,24 @@
+{
+  "name": "ChineseFonts",
+  "version": "0.0.1",
+  "description": "Zip target fonts to web fonts",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "latest",
+    "fontmin": "latest",
+    "fs": "latest",
+    "gulp-ttf2woff2": "latest",
+    "fast-html-parser": "latest",
+    "imagemin": "latest",
+    "imagemin-svgo": "latest",
+    "minimatch": "latest"
+  },
+  "devtool": {
+    "source-map": "latest"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "Edmond Yip",
+  "license": "MIT"
+}

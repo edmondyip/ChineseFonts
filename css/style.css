@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'seto';
+  src: url('build/seto.eot');
+  src: url('build/seto.eot') format('embedded-opentype'),
+  url('build/seto.woff2') format('woff2'),
+  url('build/seto.woff') format('woff'),
+  url('build/seto.ttf') format('truetype'),
+  url('build/seto.svg') format('svg');
+}
+
+h1 {
+  font-family: 'seto';
+  font-size: 60px;
+}
