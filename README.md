@@ -1,5 +1,7 @@
 # ChineseFonts
-Convert Chinese text to web fonts
+You can use this program to convert asian fonts to web fonts, like Chinese, Japanese, Korean.
+
+這是一個可以把字體抽出壓縮成web fonts的程式，適用於中文，日文及韓文。
 
 # Usage
 
@@ -43,11 +45,17 @@ You can change setting in index.js
 }
 
 ```
+```
+$ npm install
+```
+Use `npm install` to install package.
 
 ## Scripts
 ```
-npm run build
+$ npm run build
 ```
+You can see which words have been convert after run `build`
+
 運行`build`後會顯示已轉換的字型
 
 # Thanks
@@ -57,5 +65,7 @@ npm run build
 * [Fast Html Parse](https://github.com/ashi009/node-fast-html-parser)
 
 # Remark
+
+This is my first open source in Github, please tell me if you find any questions, Thanks.
 
 這是我Github第一次公開open source，還沒有掌握好重點，如有問題請多多指教。
