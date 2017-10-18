@@ -23,7 +23,7 @@ You can change setting in index.js
 ```
 {
   "name": "ChineseFonts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zip target fonts to web fonts",
   "main": "index.js",
   "dependencies": {
@@ -56,8 +56,11 @@ Use `npm install` to install package.
 ## Scripts
 ```
 $ npm run build
+$ > ChineseFonts@0.0.1 build /var/test
+$ > node index.js
+$ Converted words : 我是超級大標題第二 (9)
 ```
-You can see which words have been convert after run `build`
+You can see which words have been convert after run `build`.
 
 運行`build`後會顯示已轉換的字型
 
