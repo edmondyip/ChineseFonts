@@ -47,7 +47,7 @@ function wordCount(str) {
 }
 
 // print all text
-console.log(removeDupicateText(allText), wordCount(allText));
+console.log('Converted words : ' + removeDupicateText(allText),'(' + wordCount(allText) + ')');
 
 // convert file type
 var fontmin = new Fontmin()
