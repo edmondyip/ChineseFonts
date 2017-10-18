@@ -3,6 +3,8 @@ You can use this program to convert asian fonts to web fonts, like Chinese, Japa
 
 這是一個可以把字體抽出壓縮成web fonts的程式，適用於中文，日文及韓文。
 
+![convert font](https://raw.githubusercontent.com/edmondyip/ChineseFonts/master/flow.jpg)
+
 # Usage
 
 ## Setting
@@ -45,6 +47,7 @@ You can change setting in index.js
 }
 
 ```
+## install
 ```
 $ npm install
 ```
