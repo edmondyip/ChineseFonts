@@ -39,8 +39,15 @@ function removeDupicateText(string) {
   return unique;
 };
 
+// word count
+function wordCount(str) {
+  var text = removeDupicateText(str)
+  var matches = text.match(/[\u00ff-\uffff]|\S+/g);
+  return matches ? matches.length : 0;
+}
+
 // print all text
-console.log(removeDupicateText(allText));
+console.log(removeDupicateText(allText), wordCount(allText));
 
 // convert file type
 var fontmin = new Fontmin()
