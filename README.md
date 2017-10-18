@@ -70,6 +70,11 @@ You can see which words have been convert after run `build`.
 * [gulp-ttf2woff2](https://github.com/nfroidure/gulp-ttf2woff2)
 * [Fast Html Parse](https://github.com/ashi009/node-fast-html-parser)
 
+# version
+
+* v0.0.1 first push
+* v0.0.2 add word counter
+
 # Remark
 
 This is my first open source in Github, please tell me if you find any questions, Thanks.
