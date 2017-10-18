@@ -1,6 +1,6 @@
 {
   "name": "ChineseFonts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zip target fonts to web fonts",
   "main": "index.js",
   "dependencies": {
