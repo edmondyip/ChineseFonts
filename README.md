@@ -11,11 +11,11 @@ You can use this program to convert asian fonts to web fonts, like Chinese, Japa
 
 ```
 //setting
-const fileDirectory = './'; //target directory
-const fileExtension = 'html'; //file extendion
-const fontsSource = './fonts/seto.ttf'; //fonts source (must be .ttf)
-const outputPath = 'build/'; //output web fonts directory
-const fontsClass = 'h1'; //class need fonts
+const fileDirectory = './';
+const fileExtension = 'html';
+const fontsSource = './fonts/seto.ttf';
+const outputPath = 'build/';
+const fontsClass = 'h1';
 ```
 You can change setting in index.js
 
@@ -23,18 +23,17 @@ You can change setting in index.js
 ```
 {
   "name": "ChineseFonts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zip target fonts to web fonts",
   "main": "index.js",
   "dependencies": {
-    "bluebird": "latest",
     "fontmin": "latest",
     "fs": "latest",
     "gulp-ttf2woff2": "latest",
     "fast-html-parser": "latest",
     "imagemin": "latest",
     "imagemin-svgo": "latest",
-    "minimatch": "latest"
+    "readdir": "latest"
   },
   "devtool": {
     "source-map": "latest"
@@ -56,7 +55,7 @@ Use `npm install` to install package.
 ## Scripts
 ```
 $ npm run build
-$ > ChineseFonts@0.0.1 build /var/test
+$ > ChineseFonts@0.0.3 build /var/test
 $ > node index.js
 $ Converted words : 我是超級大標題第二 (9)
 ```
@@ -75,6 +74,7 @@ You can see which words have been convert after run `build`.
 
 * v0.0.1 first push
 * v0.0.2 add word counter
+* v0.0.3 check all subdirectory
 
 # Remark
 
