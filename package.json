@@ -4,14 +4,12 @@
   "description": "Zip target fonts to web fonts",
   "main": "index.js",
   "dependencies": {
-    "bluebird": "latest",
     "fontmin": "latest",
     "fs": "latest",
     "gulp-ttf2woff2": "latest",
     "fast-html-parser": "latest",
     "imagemin": "latest",
     "imagemin-svgo": "latest",
-    "minimatch": "latest",
     "readdir": "latest"
   },
   "devtool": {
