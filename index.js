@@ -5,6 +5,9 @@ const fontsSource = './fonts/seto.ttf'; //fonts source (must be .ttf)
 const outputPath = 'build/'; //output web fonts directory
 const fontsClass = 'h1'; //class need fonts
 
+const fileExt1 = ("*." + fileExtension);
+const fileExt2 = ("*/*." + fileExtension);
+
 //require
 const fs = require('fs');
 const readDir = require('readdir');
@@ -14,7 +17,7 @@ const imagemin = require('imagemin');
 const svgo = require('imagemin-svgo');
 const ttf2woff2 = require('gulp-ttf2woff2');
 
-const files = readDir.readSync( './', ['*.html', '*/*.html'] );
+const files = readDir.readSync( fileDirectory, [fileExt1, fileExt2] );
 let allText = "";
 
 // get text string
