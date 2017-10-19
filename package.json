@@ -1,6 +1,6 @@
 {
   "name": "ChineseFonts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zip target fonts to web fonts",
   "main": "index.js",
   "dependencies": {
@@ -11,7 +11,8 @@
     "fast-html-parser": "latest",
     "imagemin": "latest",
     "imagemin-svgo": "latest",
-    "minimatch": "latest"
+    "minimatch": "latest",
+    "readdir": "latest"
   },
   "devtool": {
     "source-map": "latest"
