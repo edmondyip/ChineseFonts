@@ -66,6 +66,7 @@ You can see which words have been convert after run `build`.
 
 # Thanks
 
+* [Harry Lo](https://github.com/apple1324hk)
 * [Fontmin](https://github.com/ecomfe/fontmin)
 * [gulp-ttf2woff2](https://github.com/nfroidure/gulp-ttf2woff2)
 * [Fast Html Parse](https://github.com/ashi009/node-fast-html-parser)
