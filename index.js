@@ -6,24 +6,20 @@ const outputPath = 'build/'; //output web fonts directory
 const fontsClass = 'h1'; //class need fonts
 
 //require
-const promise = require("bluebird");
 const fs = require('fs');
-const files = fs.readdirSync('./' + fileDirectory);
-promise.promisifyAll(fs);
-
+const readDir = require('readdir');
 const htmlParser = require('fast-html-parser');
 const Fontmin = require('fontmin');
 const imagemin = require('imagemin');
 const svgo = require('imagemin-svgo');
 const ttf2woff2 = require('gulp-ttf2woff2');
 
+const files = readDir.readSync( './', ['*.html', '*/*.html'] );
 let allText = "";
 
 // get text string
 files.forEach((file) => {
-  const filteredFile = RegExp("^[a-z]*." + fileExtension + "$");
-  if (!file.match(filteredFile)) return false;
-  let fileContent = fs.readFileSync(fileDirectory + "/" + file, 'utf8');
+  let fileContent = fs.readFileSync(file, 'utf8');
   let forText = htmlParser.parse(fileContent);
   allText += (forText.querySelector(fontsClass).text);
 });
