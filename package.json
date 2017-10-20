@@ -1,22 +1,26 @@
 {
-  "name": "ChineseFonts",
-  "version": "0.0.3",
+  "name": "chinese-fonts",
+  "version": "0.0.4",
   "description": "Zip target fonts to web fonts",
   "main": "index.js",
   "dependencies": {
-    "fast-html-parser": "1.0.1",
-    "fontmin": "0.9.6",
-    "fs": "0.0.1-security",
-    "gulp-ttf2woff2": "2.0.2",
-    "imagemin": "5.3.1",
-    "imagemin-svgo": "5.2.2",
-    "readdir": "0.0.13"
+    "fast-html-parser": "~1.0.1",
+    "fontmin": "~0.9.6",
+    "fs": "~0.0.1-security",
+    "gulp-ttf2woff2": "~2.0.2",
+    "imagemin": "~5.3.1",
+    "imagemin-svgo": "~5.2.2",
+    "readdir": "~0.0.13"
   },
   "devtool": {
     "source-map": "latest"
   },
   "scripts": {
     "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edmondyip/ChineseFonts"
   },
   "author": "Edmond Yip",
   "license": "MIT"
